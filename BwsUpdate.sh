@@ -79,9 +79,9 @@ echo "installing/updating your Masternode"
 rm bwsd
 rm bws-cli
 rm bws-tx
-wget https://github.com/bitcoinwspectrum/bws-linux-cli/releases/download/bws-cli/tar-bws-linux-cli
-tar -xf bws-linux-cli.tgz
-rm bws-linux-cli.tgz
+wget https://github.com/bitcoinwspectrum/bws-linux-cli/releases/download/bws-cli/bws-linux-cli.tar
+tar -xf bws-linux-cli.tar
+rm bws-linux-cli.tar
 sudo su -c "echo 'listenonion=1' >> /.bws/bws.conf"
 fi
 echo "Masternode Configuration"
@@ -212,9 +212,9 @@ if
 rm bwsd
 rm bws-cli
 rm bws-tx
-wget https://github.com/bitcoinwspectrum/bws-linux-cli/releases/download/bws-cli/tar-bws-linux-cli
-tar -xf bws-linux-cli.tgz
-rm bws-linux-cli.tgz
+wget https://github.com/bitcoinwspectrum/bws-linux-cli/releases/download/bws-cli/bws-linux-cli.tar
+tar -xf bws-linux-cli.tar
+rm bws-linux-cli.tar
 sudo su -c "echo 'listenonion=1' >> /.bws/bws.conf"
 echo "Masternode Configuration"
 echo "Your recognised IP address is:"
