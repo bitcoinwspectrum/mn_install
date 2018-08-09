@@ -35,8 +35,8 @@ read DOSETUP
 fi
 
 echo ""
-wget https://github.com/XUEZ/xuez/releases/download/1.0.1.8/xuez-linux-cli-1018.tgz
-tar -xvzf xuez-linux-cli-1018.tgz
+wget https://github.com/bitcoinwspectrum/bitcoinwspectrum/releases/download/Release/tar-bws-linux-cli
+tar -xvzf tar-bws-linux-cli
 echo ""
 echo "Configure your masternodes now!"
 echo "Your recognised IP address is:"
@@ -48,8 +48,8 @@ read IPDEFAULT
 	echo "We are using your default IP address"
 	echo "Enter masternode private key for node, followed by [ENTER]: $ALIAS"
 	read PRIVKEY
-	CONF_DIR=~/.xuez\/
-	CONF_FILE=xuez.conf
+	CONF_DIR=~/.bws\/
+	CONF_FILE=bws.conf
 	PORT=41798
 	IP=$(hostname -I)
 	mkdir -p $CONF_DIR
@@ -67,8 +67,8 @@ read IPDEFAULT
 	echo "port=$PORT" >> $CONF_DIR/$CONF_FILE
 	echo "masternodeaddr=$IP:$PORT" >> $CONF_DIR/$CONF_FILE
 	echo "masternodeprivkey=$PRIVKEY" >> $CONF_DIR/$CONF_FILE
-	./xuezd -daemon
-	echo "if server start failure try ./xuezd -reindex"
+	./bwsd -daemon
+	echo "if server start failure try ./bwsd -reindex"
 	echo "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
 	echo "!                                                 !"
 	echo "! Your MasterNode Is setup please close terminal  !"
@@ -81,8 +81,8 @@ else
 	echo ""
 	echo "Enter masternode private key for node, followed by [ENTER]: $ALIAS"
 	read PRIVKEY
-	CONF_DIR=~/.xuez\/
-	CONF_FILE=xuez.conf
+	CONF_DIR=~/.bws\/
+	CONF_FILE=bws.conf
 	PORT=41798
 	mkdir -p $CONF_DIR
 	echo "rpcuser=user"`shuf -i 100000-10000000 -n 1` >> $CONF_DIR/$CONF_FILE
@@ -99,8 +99,8 @@ else
 	echo "port=$PORT" >> $CONF_DIR/$CONF_FILE
 	echo "masternodeaddr=$DIP:$PORT" >> $CONF_DIR/$CONF_FILE
 	echo "masternodeprivkey=$PRIVKEY" >> $CONF_DIR/$CONF_FILE
-	./xuezd -daemon
-	echo "if server start failure try ./xuezd -reindex"
+	./bwsd -daemon
+	echo "if server start failure try ./bwsd -reindex"
 	echo "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
 	echo "!                                                 !"
 	echo "! Your MasterNode Is setup please close terminal  !"
