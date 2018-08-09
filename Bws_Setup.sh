@@ -1,10 +1,10 @@
 #/bin/bash
 cd ~
 echo "****************************************************************************"
-echo "* This script will install and configure your BWS Coin masternodes.       *"
+echo "* This script will install and configure your BWS Coin masternodes.        *"
 echo "*                    Love from A_Block_Nut(Thermo) ;)                      *"
-echo "*    If you have any issues please ask for help on the BWS discord.       *"
-echo "*                      https://discord.gg/3Z7DUEC                           *"
+echo "*    If you have any issues please ask for help on the BWS discord.        *"
+echo "*                      https://discord.gg/3Z7DUEC                          *"
 echo "*                        https://bitcoinwspectrum.com/                     *"
 echo "****************************************************************************"
 echo "" 
