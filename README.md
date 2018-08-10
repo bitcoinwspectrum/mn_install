@@ -2,7 +2,7 @@
   <img src="https://bitcoinwspectrum.com/wp-content/uploads/2018/08/img_00.png" width="250"/>
 </p>
 
-# <h>  VPS Masternode with TOR ready setup script. </h>
+# <h>  BWS VPS Masternode 1-Click setup script. </h>
 
 To run the script simply type the following commands into your VPS terminal. 
  
