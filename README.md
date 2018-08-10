@@ -55,19 +55,6 @@ MN1 31.11.135.27:41798 892WPpkqbr7sr6Si4fdsfssjjapuFzAXwETCrpPJubnrmU6aKzh c8f49
 
 <h2> Run and follow the instructions on the script </h2> 
 
-<h1> TOR Activation </h1>
-
-Step 1 - Find the node onion address
-
-Command: `./bws-cli getnetworkinfo`
-
-Look for the TOR address at the end of the output (EG. aedFAWE235AGa2.onion)
-
-Step 2 - Edit your LOCAL (Not VPS) masternode.conf by replacing the old IP address with the new .onion TOR address.
-
-Step 3 - Restart the local wallet
-Windows, Max and Linux GUI; Close and open your wallet
-
 Linux CLI:
 
 Command: `./bws-cli stop`
