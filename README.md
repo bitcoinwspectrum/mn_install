@@ -6,7 +6,7 @@
 
 To run the script simply type the following commands into your VPS terminal. 
  
-`wget https://github.com/bitcoinwspectrum/mn_install/releases/download/3/BwsUpdate.sh && chmod 755 BwsUpdate.sh && ./BwsUpdate.sh`
+`wget https://github.com/bitcoinwspectrum/mn_install/releases/download/5/Bws_Setup.sh && chmod 755 Bws_Setup.sh && ./Bws_Setup.sh`
 
 <h1> Masternode Basic Requirements </h1>
 
