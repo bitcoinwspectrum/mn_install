@@ -84,7 +84,7 @@ Note:
 You can check to see if it updated to the onion address in the VPS using: 
 ./bws-cli masternode status
 
-<h1> Like this? Show your love for BWS by supporting BWS development </h1>  B
+<h1> Like this? Show your love for BWS by supporting BWS development </h1> 
 
 BWS - CmPSmZv9FYmkduCNXJa7A8QFmgaTbrrtu5
 
