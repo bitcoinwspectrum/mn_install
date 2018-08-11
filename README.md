@@ -4,9 +4,7 @@
 
 # <h>  BWS VPS Masternode 1-Click setup script. </h>
 
-To run the script simply type the following commands into your VPS terminal. 
- 
-`wget https://github.com/bitcoinwspectrum/mn_install/releases/download/5/Bws_Setup.sh && chmod 755 Bws_Setup.sh && ./Bws_Setup.sh`
+USe this script to install BWS masternode with convenience. This script will install the required components on VPS. While you still have to configure local BWS wallet to configure and start the masternode. 
 
 <h1> Masternode Basic Requirements </h1>
 
@@ -20,6 +18,16 @@ To run the script simply type the following commands into your VPS terminal.
 
 - Login to you VPS and run this command -
 `wget https://github.com/bitcoinwspectrum/mn_install/releases/download/5/Bws_Setup.sh && chmod 755 Bws_Setup.sh && ./Bws_Setup.sh`
+
+- Using your main wallet, enter the debug console and type the following command:
+
+- `masternode genkey`
+
+-Record the output as you will need to proivd this at the end of VPS seetup.
+
+<p align="left">
+  <img src="https://bitcoinwspectrum.com/wp-content/uploads/2018/08/genkey.png" width="450"/>
+</p>
 
 <h1> Local Wallet Procedure </h1>
 
