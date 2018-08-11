@@ -18,7 +18,8 @@ To run the script simply type the following commands into your VPS terminal.
 
 - A VPS account with  a unique IP address for EACH masternode. It has been tesed with VULTR $5 Ubuntu 16.04 x64 server. You can choose any other VPS provider of your choice.
 
-- Login to you VPS and run this command - `wget https://github.com/bitcoinwspectrum/mn_install/releases/download/5/Bws_Setup.sh && chmod 755 Bws_Setup.sh && ./Bws_Setup.sh`
+- Login to you VPS and run this command -
+`wget https://github.com/bitcoinwspectrum/mn_install/releases/download/5/Bws_Setup.sh && chmod 755 Bws_Setup.sh && ./Bws_Setup.sh`
 
 <h1> Local Wallet Procedure </h1>
 
