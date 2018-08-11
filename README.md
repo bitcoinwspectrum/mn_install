@@ -16,7 +16,9 @@ To run the script simply type the following commands into your VPS terminal.
 
 - Masternode Server
 
-- Unique IP address for EACH masternode
+- A VPS account with  a unique IP address for EACH masternode. It has been tesed with VULTR $5 Ubuntu 16.04 x64 server. You can choose any other VPS provider of your choice.
+
+- Login to you VPS and run this command - `wget https://github.com/bitcoinwspectrum/mn_install/releases/download/5/Bws_Setup.sh && chmod 755 Bws_Setup.sh && ./Bws_Setup.sh`
 
 <h1> Local Wallet Procedure </h1>
 
@@ -81,3 +83,9 @@ Step 7 - Wait up to 30 minutes for the MN timer to change from 00:00 to a postiv
 Note:
 You can check to see if it updated to the onion address in the VPS using: 
 ./bws-cli masternode status
+
+<h1> Like this? Show your love for BWS by supporting BWS development </h1>  B
+
+BWS - CmPSmZv9FYmkduCNXJa7A8QFmgaTbrrtu5
+
+BTC - 17gWaVCVrDcZwTtX9ejH8zncsYt9yN6YsY
