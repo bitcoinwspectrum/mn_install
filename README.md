@@ -86,6 +86,6 @@ You can check to see if it updated to the onion address in the VPS using:
 
 <h1> Like this? Show your love for BWS by supporting BWS development </h1> 
 
-BWS - CmPSmZv9FYmkduCNXJa7A8QFmgaTbrrtu5
+<h2> BWS </h2> - CmPSmZv9FYmkduCNXJa7A8QFmgaTbrrtu5
 
-BTC - 17gWaVCVrDcZwTtX9ejH8zncsYt9yN6YsY
+<h2> BTC </h2> - 17gWaVCVrDcZwTtX9ejH8zncsYt9yN6YsY
