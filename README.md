@@ -26,7 +26,7 @@ USe this script to install BWS masternode with convenience. This script will ins
 -Record the output as you will need to proivd this at the end of VPS seetup.
 
 <p align="left">
-  <img src="https://bitcoinwspectrum.com/wp-content/uploads/2018/08/genkey.png" width="450"/>
+  <img src="" width="450"/>
 </p>
 
 <h1> Local Wallet Procedure </h1>
