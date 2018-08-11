@@ -23,7 +23,7 @@ USe this script to install BWS masternode with convenience. This script will ins
 
 - `masternode genkey`
 
--Record the output as you will need to proivd this at the end of VPS seetup.
+-Record the output as you will need to proivde this at the end of VPS setup.
 
 <p align="left">
   <img src="https://bitcoinwspectrum.com/wp-content/uploads/2018/08/genkey2.png" width="450"/>
